@@ -30,7 +30,7 @@ You will need to use the [taxCalculation](https://documenter.getpostman.com/view
 
 * Allow the user to select the tax year from a selection of at least two years (e.g. 2019-2020 and 2020-2021) 
 
-* Allow the user to enter their postcode and then then enter one or more of the following 
+* Allow the user to enter their postcode and then enter one or more of the following:
 	- Self employment income for the year
 	- Annual dividend income
 	- Annual employment income (salary)
