@@ -35,7 +35,23 @@ You will need to use the [taxCalculation](https://documenter.getpostman.com/view
 	- Annual dividend income
 	- Annual employment income (salary)
 
-* When the user submits the information post the data to the [taxCalculation](https://documenter.getpostman.com/view/7541671/SzzrZETB#855a0137-04c8-40ad-b83b-f1c929a38feb) endpoint to get a tax calculation back and present it to the user
+* When the user submits the information, POST the data to the [taxCalculation](https://documenter.getpostman.com/view/7541671/SzzrZETB#855a0137-04c8-40ad-b83b-f1c929a38feb) endpoint to get a tax calculation back and present it to the user. Here's an example payload with the attributes you need:
+
+```json
+	{
+	   "tax_year": "2020-2021",	
+	   "postcode": "EC2A 4DP",
+	   "dividends":{
+	      "income":44000
+	   },
+	   "trading":{
+	      "income":36760
+	   },
+	   "employment":{
+	      "income": 45000
+	   }
+	}
+```
 
 * Show the breakdown of tax, and the different national insurance types
   - Note that total_tax_due returned by /taxCalculation does not include class 1 NICs as these are usually paid by the employer, so to show the user their total tax be sure to add class 1 NIC to it.
@@ -59,6 +75,7 @@ You will need to use the [taxCalculation](https://documenter.getpostman.com/view
 * How long did you spend on the coding task? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.
 * What was the most useful feature that was added to the latest version of your chosen language (React/React Native)? Please include a snippet of code that shows how you've used it.
 * How would you track down a performance issue in production? Have you ever had to do this?
+* Did you use any tools to test the API requests first? If so what did you use?
 * How would you improve the taxCalculation API that you just used?
 * In the /src folder of this repository you will find a file called taxCalc.js that contains a take home pay calculator for a given salary and tax year. What might be the advantages/disadvantages of using a calculation like this compared to using the API?
 * If you have time think about how you might be able to solve the calcGrossFromTakehome function.  
