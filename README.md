@@ -10,7 +10,7 @@ Please create a zip file containing:
 1. a single markdown file with the answers to the technical questions
 2. one folder containing your solution to the coding task
 
-Please upload the zip file to a shared dropbox or Google Drive folder and send us the link.
+Please upload the zip file to a shared Dropbox or Google Drive folder and send us the link.
 
 ## Coding Task
 
