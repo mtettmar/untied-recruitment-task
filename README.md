@@ -22,7 +22,7 @@ You will need to use the [taxCalculation](https://documenter.getpostman.com/view
 
 * Create a login screen which asks for the user’s email address and password “letmein”. Make sure that when the user is not logged in they cannot see any other screens. After logging in take them to a new ‘Tax Calculator’ screen.
 
-* Show the user’s email address at the top of the Tax Calculator screen.
+* Show the user’s email address at the top of the Tax Calculator screen, with a logout link.
 
 * On the Tax Calculator screen create a simple tax calculator using the /taxCalculation endpoint of our public API. Use the following details to connect:
     - Use host: platform-sandbox.untied.io
@@ -35,29 +35,32 @@ You will need to use the [taxCalculation](https://documenter.getpostman.com/view
 	- Annual dividend income
 	- Annual employment income (salary)
 
-* Post the data to the /taxCalculation endpoint to get a tax calculation back and present it to the user
+* When the user submits the information post the data to the [taxCalculation](https://documenter.getpostman.com/view/7541671/SzzrZETB#855a0137-04c8-40ad-b83b-f1c929a38feb) endpoint to get a tax calculation back and present it to the user
 
 * Show the breakdown of tax, and the different national insurance types
   - Note that total_tax_due returned by /taxCalculation does not include class 1 NICs as these are usually paid by the employer, so to show the user their total tax be sure to add class 1 NIC to it.
 
 * Add a Tabbed component and another screen. Make this an About screen. Show their email address at the top and a version number. Add a link to help.untied.io. The user should be able to switch between the About screen and the Tax Calculator screen. 
 
+* Here's a very basic wireframe showing the rough idea:
+
+&nbsp;&nbsp;<img src="https://github.com/mtettmar/untied-recruitment-task/blob/master/images/wireframe.png" width="300">
+
 ### Notes
 
-* Please aim to spend 2-3 hours completing this task
 * We'd like to see state management tools being used
-* Style the components however you see fit. SASS or PostCSS are fine, but we'd prefer CSS in JS
+* Style the components however you see fit
 * We love tests, linted code and great looking UIs
 * The API contains other methods, feel free to use this creatively if you have the time
 * Remember to check your project runs before submitting
 
 # Technical Questions
 
-* How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.
-* What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
+* How long did you spend on the coding task? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.
+* What was the most useful feature that was added to the latest version of your chosen language (React/React Native)? Please include a snippet of code that shows how you've used it.
 * How would you track down a performance issue in production? Have you ever had to do this?
 * How would you improve the taxCalculation API that you just used?
-* In the /src folder of this repository you will find a file called taxCalc.js that contains a take home pay calculator for a given salary and tax year. What might be the advantages/disadvantages of using this calculation compared to the API?
+* In the /src folder of this repository you will find a file called taxCalc.js that contains a take home pay calculator for a given salary and tax year. What might be the advantages/disadvantages of using a calculation like this compared to using the API?
 * If you have time think about how you might be able to solve the calcGrossFromTakehome function.  
 
 #### Thanks for your time!
