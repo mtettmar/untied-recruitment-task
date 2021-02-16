@@ -44,7 +44,7 @@ You will need to use the [taxCalculation](https://documenter.getpostman.com/view
 
 * Here's a very basic wireframe showing the rough idea:
 
-&nbsp;&nbsp;<img src="https://github.com/mtettmar/untied-recruitment-task/blob/master/images/wireframe.png" width="300">
+&nbsp;&nbsp;<img src="https://github.com/mtettmar/untied-recruitment-task/blob/master/images/wireframe2.png" width="300">
 
 ### Notes
 
