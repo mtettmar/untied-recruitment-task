@@ -28,7 +28,9 @@ You will need to use the [taxCalculation](https://documenter.getpostman.com/view
     - Use host: platform-sandbox.untied.io
     - You will need to use the [/auth](https://documenter.getpostman.com/view/7541671/SzzrZETB#5565df22-2742-4d31-8f94-a7f92167f4b5) endpoint to get a token using a client_id and client_secret supplied by us. Use "admin" scope.
 
-* Allow the user to select the tax year from a selection of at least two years (e.g. 2019-2020 and 2020-2021) and then enter one or more of the following 
+* Allow the user to select the tax year from a selection of at least two years (e.g. 2019-2020 and 2020-2021) 
+
+* Allow the user to enter their postcode and then then enter one or more of the following 
 	- Self employment income for the year
 	- Annual dividend income
 	- Annual employment income (salary)
