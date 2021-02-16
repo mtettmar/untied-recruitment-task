@@ -16,7 +16,7 @@ Please upload the zip file to a shared dropbox or Google Drive folder and send u
 
 We'd like you to create a React or React Native project (Whichever is most suitable for the position you are applying for - we will probably have already discussed this) which shows a user how much tax they will have to pay.
 
-You will need to use the [taxCalculation](https://documenter.getpostman.com/view/7541671/SzzrZETB#5ca77087-0ceb-4b95-ac12-2f10f56fcd6a) endpoint of the [untied platform API](https://documenter.getpostman.com/view/7541671/SzzrZETB).
+You will need to use the [taxCalculation](https://documenter.getpostman.com/view/7541671/SzzrZETB#855a0137-04c8-40ad-b83b-f1c929a38feb) endpoint of the [untied platform API](https://documenter.getpostman.com/view/7541671/SzzrZETB).
 
 ### Requirements
 
@@ -35,7 +35,7 @@ You will need to use the [taxCalculation](https://documenter.getpostman.com/view
 	- Annual dividend income
 	- Annual employment income (salary)
 
-* When the user submits the information, POST the data to the [taxCalculation](https://documenter.getpostman.com/view/7541671/SzzrZETB#5ca77087-0ceb-4b95-ac12-2f10f56fcd6a) endpoint to get a tax calculation back and present it to the user. Here's an example payload with the attributes you need:
+* When the user submits the information, POST the data to the [taxCalculation](https://documenter.getpostman.com/view/7541671/SzzrZETB#855a0137-04c8-40ad-b83b-f1c929a38feb) endpoint to get a tax calculation back and present it to the user. Here's an example payload with the attributes you need:
 
 ```json
 	{
