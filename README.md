@@ -1,6 +1,6 @@
 # untied-recruitment-task
 
-Thank you for taking the time to do our technical challenge.  There are two parts to this challenge:
+Thank you for taking the time to do our technical challenge. There are two parts to this challenge:
 
 * [A coding task](#coding-task)
 * [A few questions](#technical-questions)
@@ -26,7 +26,7 @@ You will need to use the [taxCalculation](https://documenter.getpostman.com/view
 
 * On the Tax Calculator screen create a simple tax calculator using the /taxCalculation endpoint of our public API. Use the following details to connect:
     - Use host: platform-sandbox.untied.io
-    - You will need to use the [/auth](https://documenter.getpostman.com/view/7541671/SzzrZETB#5565df22-2742-4d31-8f94-a7f92167f4b5) endpoint to get a token using a client_id and client_secret supplied by us. Use "admin" scope.
+    - You will need to use the [/auth](https://documenter.getpostman.com/view/7541671/SzzrZETB#5565df22-2742-4d31-8f94-a7f92167f4b5) endpoint to get a token using a client_id and client_secret supplied by us (contact us if you don't have them). Use "admin" scope. 
 
 * Allow the user to select the tax year from a selection of at least two years (e.g. 2019-2020 and 2020-2021) 
 
