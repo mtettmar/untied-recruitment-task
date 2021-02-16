@@ -40,7 +40,7 @@ You will need to use the [taxCalculation](https://documenter.getpostman.com/view
 * Show the breakdown of tax, and the different national insurance types
   - Note that total_tax_due returned by /taxCalculation does not include class 1 NICs as these are usually paid by the employer, so to show the user their total tax be sure to add class 1 NIC to it.
 
-* Add a Tabbed component and a second screen. Make this an About screen. Show their email address at the top and a version number. Add a link to help.untied.io 
+* Add a Tabbed component and another screen. Make this an About screen. Show their email address at the top and a version number. Add a link to help.untied.io. The user should be able to switch between the About screen and the Tax Calculator screen. 
 
 ### Notes
 
